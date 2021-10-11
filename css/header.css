@@ -1,0 +1,41 @@
+header{
+    width: 100%;
+    height: 25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#header-conteiner{
+    width: 80%;
+    height: inherit;
+    background-image: url(../img/root-img/);
+}
+
+#player-counter-conteiner{
+    width: 33rem;
+    height: 13%;
+    position: fixed;
+    left: 20%;
+    text-align: center;
+    background-image: url(../img/root-img/status-bar-full.png);
+    background-repeat: no-repeat;
+    padding: 0.5em;
+}
+@media screen and (max-width: 1100px) {
+    #player-counter-conteiner{
+        position: initial;
+        left: unset;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+#player-counter-conteiner span{
+    text-transform: uppercase;
+    color: #9ea5b5;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+}
+#player-counter-conteiner span green{
+    color: #00FF00;
+}

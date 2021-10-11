@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    align-items: center;
+    justify-content: center;
+    /*o 'background' não deveria ser usado dessa forma, pois se eventualmente os links caírem, o background do website também vai.*/
+    background: url(https://lepiigortv.com/github_websites/lynch/imgs/bg-top.png) no-repeat center top,url(https://lepiigortv.com/github_websites/lynch/imgs/bg-bot.jpg) no-repeat center bottom;
+    background-color: #141920;
+}

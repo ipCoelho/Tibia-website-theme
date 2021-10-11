@@ -1,0 +1,10 @@
+header{
+    /* background-color: coral; */
+}
+main{
+    background-color: darkkhaki;
+    flex-grow: 1;
+}
+footer{
+    background-color: bisque;
+}
