@@ -1,10 +1,13 @@
-header{
-    /* background-color: coral; */
-}
 main{
     background-color: darkkhaki;
     flex-grow: 1;
 }
+main div{
+    display: block;
+    width: 10px;
+    height: 1500px;
+    background-color: antiquewhite;
+}
 footer{
-    background-color: bisque;
+    color: bisque;
 }

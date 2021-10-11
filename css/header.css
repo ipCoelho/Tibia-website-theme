@@ -4,17 +4,18 @@ header{
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
+
 #header-conteiner{
-    width: 80%;
+    width: 100%;
     height: inherit;
     background-image: url(../img/root-img/);
 }
-
 #player-counter-conteiner{
     width: 33rem;
     height: 13%;
-    position: fixed;
+    position: absolute;
     left: 20%;
     text-align: center;
     background-image: url(../img/root-img/status-bar-full.png);
@@ -27,6 +28,14 @@ header{
         left: unset;
         margin-left: auto;
         margin-right: auto;
+    }
+}
+@media screen and (max-width: 550px) {
+    #header-conteiner{
+        width: 100%;
+    }
+    #player-counter-conteiner{
+    width: inherit;
     }
 }
 
